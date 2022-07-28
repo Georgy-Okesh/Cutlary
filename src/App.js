@@ -2,7 +2,7 @@ import { ThemeProvider } from "styled-components";
 import GlobalStyles from "./styles/GlobalStyles";
 import { dark } from "./styles/Theme";
 import { LocomotiveScrollProvider } from "react-locomotive-scroll";
-import { useEffect, useRef, useState } from "react";
+import { useRef } from "react";
 import Home from "./sections/Home";
 import "locomotive-scroll/dist/locomotive-scroll.css";
 import { AnimatePresence } from "framer-motion";
@@ -12,7 +12,6 @@ import ScrollTriggerProxy from "./components/ScrollTriggerProxy";
 import Banner from "./sections/Banner";
 import BestSeller from "./sections/BestSeller";
 import Footer from "./sections/Footer";
-import Loaders from "./components/Loaders";
 
 function App() {
   const containerRef = useRef(null);
