@@ -120,7 +120,7 @@ const About = () => {
         data-scroll-speed="-2"
         data-scroll-direction="horizontal"
       >
-        About us
+        About us.
       </Title>
       <Left data-scroll data-scroll-sticky data-scroll-target="#fixed-target">
         We're kitchen and home-ware store based in kenya. We provide high-end
