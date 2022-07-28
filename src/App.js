@@ -16,14 +16,7 @@ import Loaders from "./components/Loaders";
 
 function App() {
   const containerRef = useRef(null);
-  const [loaded, setLoaded] = useState(false);
-  useEffect(() => {
-    setTimeout(() => {
-      setLoaded(true);
-    }, 3000);
-  }, []);
 
-  const [loading, setLoading] = useState(true);
   return (
     <>
       <GlobalStyles />
